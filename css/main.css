@@ -5467,7 +5467,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 .text-lowercase {
   text-transform: lowercase !important; }
 
-.text-uppercase, .header-subtle {
+.text-uppercase {
   text-transform: uppercase !important; }
 
 .text-capitalize {
@@ -5512,10 +5512,10 @@ a.text-success:focus, a.text-success:hover {
 a.text-info:focus, a.text-info:hover {
   color: #117a8b !important; }
 
-.text-warning, .header-subtle {
+.text-warning {
   color: #ffc107 !important; }
 
-a.text-warning:focus, a.header-subtle:focus, a.text-warning:hover, a.header-subtle:hover {
+a.text-warning:focus, a.text-warning:hover {
   color: #d39e00 !important; }
 
 .text-danger {
@@ -5552,25 +5552,96 @@ a.text-dark:focus, a.text-dark:hover {
 .invisible {
   visibility: hidden !important; }
 
+/* NEW CSS */
 body {
-  padding: 2rem 0; }
+  font-family: 'Lato', sans-serif; }
 
-html {
-  font-size: 14px; }
+nav {
+  text-decoration: none;
+  background-color: #bfbfbf;
+  text-align: center;
+  padding: 0;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background: rgba(141, 141, 141, 0.5); }
 
-@media (min-width: 576px) {
-  html {
-    font-size: 16px; } }
+ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0; }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 20px; } }
+li {
+  display: inline-block;
+  font-size: 24px; }
 
-@media (min-width: 992px) {
-  html {
-    font-size: 28px; } }
+li a {
+  display: block;
+  padding: 15px 30px;
+  color: white;
+  text-decoration: none; }
 
-.header-subtle {
-  font-size: 1.2rem;
-  letter-spacing: .12em;
-  opacity: .6; }
+.logo {
+  float: left;
+  margin: 10px; }
+
+.home-banner {
+  width: 100%; }
+
+.box1 {
+  width: 100%;
+  background-color: #ededed;
+  color: #414141; }
+
+p {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 25px;
+  font-size-adjust: 0.25em;
+  position: relative;
+  top: 0px; }
+
+.box2 {
+  display: table;
+  width: 100%;
+  height: 300px;
+  background-color: #dbdbdb; }
+
+.box2 span {
+  display: table-cell; }
+
+.FirstCarText {
+  float: right;
+  width: 50%;
+  padding-right: 25px;
+  position: relative;
+  top: 0px; }
+
+.box3 {
+  display: table;
+  width: 100%;
+  height: 300px;
+  background-color: #ededed; }
+
+.box3 span {
+  display: table-cell; }
+
+.SecondCarText {
+  float: left;
+  width: 50%;
+  padding-left: 25px; }
+
+.box4 {
+  display: table;
+  width: 100%;
+  height: 300px;
+  background-color: #dbdbdb; }
+
+.box4 span {
+  display: table-cell; }
+
+.ThirdCarText {
+  float: right;
+  width: 50%;
+  padding-right: 25px; }
