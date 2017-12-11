@@ -1,10 +1,16 @@
 @import 'custom';
 /*@import '../node_modules/bootstrap/scss/bootstrap';*/
 
+
+*{
+  box-sizing: border-box;
+}
 /* NEW CSS */
 
 body {
     font-family: 'Lato', sans-serif;
+    // overflow-x: hidden;
+    margin: 0 auto;
 }
 
 /* Nav bar */
@@ -37,6 +43,7 @@ li a{
     margin: 0px 30px;
     padding-top: 15px;
     color: white;
+        text-decoration: none;
 }
 
 li a:hover {
